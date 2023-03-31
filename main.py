@@ -12,7 +12,7 @@ set_default_color_theme("blue")  # Setting the theme of the app to follow
 for i in os.listdir(os.getcwd()):
     if (
         i == "youtube_downloads"
-    ):  # If there's already a folder called "youtube_downloads", do not create a new one
+    ):  # If there's already a folder called "youtube_downloads", do not create a new one!
         break
 else:
     os.mkdir(
